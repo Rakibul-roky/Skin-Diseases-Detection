@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DoctorList"
+    android:background="@drawable/teal">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/teal_500"
+        app:cardCornerRadius="12dp">
+
+        <ImageView
+            android:layout_width="239dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/ad3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="40dp"
+            android:text="Prof. Dr. M. U. Kabir Chowdhury"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="90dp"
+            android:text="MBBS, DDV (Vienna), AFICA (USA), FRCP (Glasgow)"
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view1"
+        android:layout_width="381dp"
+        android:layout_height="488dp"
+        android:layout_below="@id/card_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_500"
+        app:cardCornerRadius="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="20dp"
+            android:text="ABOUT"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="313dp"
+            android:layout_height="213dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:text="Prof. Dr. M. U. Kabir Chowdhury is a Dermatologist in Dhaka.He regularly provides treatment to his patients at National Skin Center, Dhaka. Practicing hour of Prof. Dr. M. U. Kabir Chowdhury at National Skin Center, Dhaka is 8am to 8pm (Everyday)."
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="265dp"
+            android:text="CHEMBER"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="317dp"
+            android:layout_height="107dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="300dp"
+            android:text="National Skin Center, Dhaka
+Address: 57/E (Near Samorita Hospital), Panthapath, Dhaka
+Visiting Hour: 8am to 8pm (Everyday)"
+            android:textColor="@color/black"
+            android:textSize="17sp" />
+
+
+        <Button
+            android:id="@+id/appoint2"
+            android:layout_width="148dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="415dp"
+            android:backgroundTint="@color/teal_900"
+            android:text="Call/WhatsApp"
+            android:drawableLeft="@drawable/telephone1"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/dr_appoint2"
+            android:layout_width="148dp"
+            android:layout_height="61dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="415dp"
+            android:backgroundTint="@color/teal_900"
+            android:drawableLeft="@drawable/appointment1"
+            android:text="Appointment"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:cornerRadius="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

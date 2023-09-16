@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_predict"
+            android:icon="@drawable/predict2"
+            android:title="Predict Disease"/>
+        <item
+            android:id="@+id/nav_about_dis"
+            android:icon="@drawable/aboutdis"
+            android:title="About Diseases"/>
+        <item
+            android:id="@+id/nav_about_doc"
+            android:icon="@drawable/doc2"
+            android:title="Consult a doctor"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/share"
+            android:title="Share"/>
+    </group>
+
+
+</menu>

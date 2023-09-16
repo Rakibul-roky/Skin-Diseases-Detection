@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:background="#FFFFFFFF">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/select_card_view1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/teal" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="416dp"
+            android:background="@color/teal_500"
+            android:text=" Welcome to skin disease detection app"
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="39dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="465dp"
+            android:background="@color/teal_500"
+            android:text="                We care for your skin."
+            android:textColor="@color/black"
+            android:textSize="23sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="239dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="85dp"
+            android:layout_marginTop="600dp"
+            android:backgroundTint="@color/teal_900"
+            android:text="Sign In"
+            android:textSize="16sp"
+            app:cornerRadius="22dp"
+
+            />
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/home_card_view"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:layout_marginTop="15dp"
+            app:cardCornerRadius="12dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/introimage" />
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

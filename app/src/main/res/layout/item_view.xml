@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutDisease"
+    android:background="@drawable/teal">
+
+    <ImageView
+        android:id="@+id/item_image_view"
+        android:layout_width="232dp"
+        android:layout_height="395dp"
+        android:layout_marginRight="20dp" />
+
+    <TextView
+        android:id="@+id/item_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/item_image_view"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        tools:text="Name" />
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_name"
+        android:layout_toEndOf="@id/item_image_view"
+        android:textColor="@color/black"
+        tools:text="description" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_below="@id/item_image_view"
+        android:layout_marginTop="-52dp"
+        android:background="#429CC5" />
+
+
+</RelativeLayout>
